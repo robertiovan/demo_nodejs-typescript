@@ -1,0 +1,26 @@
+{
+  "name": "node-with-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./out/startapp.js",
+  "scripts": {
+    "start": "node --debug ./out/index.js",
+    "debug": "nodemon --debug ./out/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/es6-shim": "^0.31.32",
+    "@types/node": "^7.0.0",
+    "exec": "^0.2.1",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-typescript": "^3.1.4",
+    "http": "0.0.0",
+    "nodemon": "^1.11.0",
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.5"
+  }
+}
